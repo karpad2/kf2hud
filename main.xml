@@ -3,10 +3,7 @@
 
 	<Localization directory="Localization" default="english.json"/>
 
-	<AddFiles directory="assets">
-		<model	reload="true" path="units/payday2/equipment/gen_equipment_sentry/gen_equipment_sentry"/>
-		<object reload="true" path="units/payday2/equipment/gen_equipment_sentry/gen_equipment_sentry"/>
-	</AddFiles>
+	<:include src="assets/assets.xml"/>
 
 	<Hooks directory="Hooks">
 		<hook pre="true" file="Core.lua"					source_file="lib/entry"/>
